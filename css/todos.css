@@ -64,7 +64,16 @@ a{
 /*==========================
     Formatação do topo
 ============================*/
-
+header {
+	display: flex;
+	justify-content: space-between;
+}
+header img{
+	height: 5vw;
+	width: 15vw;
+	margin-top: 0.6vw;
+	margin-left: 5vw;
+}
 header{
     background-color: #E068B8;
 }
@@ -90,113 +99,6 @@ header ul li:hover{
 }
 header ul li a{
     color: #FEEDFE;
-}
-
-/*=====================
-principal
-====================*/
-
-section.principal {
-	background-color: #E068B8;
-	padding: 0 0 2vw 0;
-}
-section .maior{
-	display: flex;
-	justify-content: center;
-}
-section.principal .maior h1{
-	font-size: 9rem;
-	margin-top: 5vw;
-	margin-right: 2vw;
-	margin-left: 10vw;
-	font-family:'Times New Roman', Times, serif;
-	font-weight: bold;
-	color: aliceblue;
-}
-section.principal .maior h1 span{
-	font-size: 5.5rem;
-	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font-weight: normal;
-}
-section.principal .maior h1 span.um{
-	color: red;
-}
-section.principal .maior h1 span.dois{
-	color: orange;
-}
-section.principal .maior h1 span.tres{
-	color: yellow;
-}
-section.principal .maior h1 span.quatro{
-	color: green;
-}
-section.principal .maior h1 span.cinco{
-	color: #009DFF;
-}
-section.principal .maior h1 span.seis{
-	color: blue;
-}
-section.principal .maior h1 span.sete{
-	color: #BF00FF;
-}
-section.principal .maior img{
-	height: 30vw;
-	width: 40vw;
-	margin-left: 2vw;
-}
-
-/*========================
-acao
-=======================*/
-section.acao{
-	padding: 0 0 3vw 0;
-}
-section.acao h2{
-	margin: 5vw 0 0 0;
-	text-align: center;
-	font-size: 4rem;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	color: #414141;
-}
-section.acao p{
-	font-size: 2.2rem;
-	margin: 4vw 2vw 2vw 17vw;
-	text-align: center;
-	background-color: #E068B8;
-	padding: 1vw 1vw 1vw 1vw;
-	border-radius: 30px;
-	color: #FEEDFE;
-}
-section.acao img{
-	height: 45vw;
-	width: 55vw;
-	margin-top: 4vw;
-	margin-left: 2vw;
-}
-section.acao h3{
-	margin-top: 2vw;
-	margin-left: 14.5vw;
-	font-size: 2.357vw;
-	margin-bottom: 1.5vw;
-	font-weight: bold;
-}
-section.acao li{
-	margin-top: 0.5vw;
-	margin-left: 17vw;
-	margin-right: 2vw;
-	font-size: 2.2rem;
-	background-color: #E068B8;
-	padding: 1vw 0.5vw 1vw 0.5vw;
-	border-radius: 30px;
-	color: #FEEDFE;
-	text-align: center;
-}
-section.acao li a{
-	color: #FEEDFE;
-}
-section.acao ul li:hover{
-    font-size: 2.3rem;
-    text-decoration: underline white;
 }
 
 /*==========================
