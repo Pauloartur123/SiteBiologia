@@ -78,6 +78,7 @@ header ul{
 header ul li{
     margin: 1.7vw 1vw;
     font-size: 1.2rem;
+	transition: .3s ease-in;
 }
 header ul li span{
     background-color: blueviolet;
@@ -199,6 +200,7 @@ section.acao li{
 	color: #FEEDFE;
 	text-align: center;
 	border: #414141 3px solid;
+	transition: .3s ease-in;
 
 }
 

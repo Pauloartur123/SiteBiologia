@@ -84,16 +84,121 @@ section.segunda p{
 /*===========================
 terceira
 ==========================*/
+.terceira{
+    margin: 0 15vw 5vw 15vw;
+}
 .terceira h2{
     font-size: 3rem;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #414141;
     font-weight: bold;
+    margin: 0 0 2vw 0;
+}
+.terceira p {
+    text-align: justify;
+    font-size: 1.5rem;
+    color: #414141;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .terceira h3{
-    font-size: ;
+    font-size: 2rem;
+    color: #414141;
+
+    font-weight: bold;
 }
+.terceira .direita h3{
+    text-align: right;
+}
+.terceira .direita p{
+    text-align: justify;
+    margin: 0 0vw 0 10vw;
+}
+.terceira span{
+    padding: 5px 15px 5px 20px;
+    background-color: #E068B8;
+    color: #FEEDFE;
+    border-radius: 70px;
+    border: #414141 2px solid;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.um {
+    margin: 2vw 3vw 0 2vw;
+}
+.dois{
+    margin: 0 2vw 0 3vw;
+}
+.terceira .borda .dum p{
+    margin: 0 10vw 0 0vw;
+    color: white;
+}
+.terceira .borda .um span {
+    background-color: white;
+    color: #414141;
+}
+.terceira .borda .dum h3 {
+    color: white;
+}
+.tres{
+    margin: 1.5vw 3vw 0 2vw;
+}
+.terceira .maior .dtres p{
+    margin: 0 10vw 0 0vw;
+    color: white;
+}
+.terceira .maior .tres span {
+    background-color: white;
+    color: #414141;
+}
+.terceira .maior .dtres h3 {
+    color: white;
+}
+.quatro {
+    margin: 1.5vw 2vw 0 3vw;
+}
+.cinco{
+    margin: 0 3vw 0 2vw;
+}
+.dcinco p{
+    margin: 0 10vw 0 0vw;
+    color: white;
+}
+.terceira .borda2 .cinco span {
+    background-color: white;
+    color: #414141;
+}
+.terceira .borda2 .dcinco h3 {
+    color: white;
+}
+.terceira .maior{
+    background-color: #E068B8;
+    padding: 2vw;
+}
+.terceira .maior2 {
+    display: flex;
+    background-color: #ffffff;
+    padding: 2vw;
+}
+.grande {
+    border: #414141 4px solid;
+    border-radius: 30px;
+}
+.borda {
+    display: flex;
+    background-color: #E068B8;
+    padding: 2vw;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.borda2 {
+    display: flex;
+    background-color: #E068B8;
+    padding: 2vw;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
 /*===========================
 ultima
 ==========================*/
@@ -123,6 +228,7 @@ ultima
 }
 section.ultima li a{
 	color: #FEEDFE;
+    transition: .3s ease-in;
 }
 section.ultima ul li:hover{
     font-size: 2.3rem;

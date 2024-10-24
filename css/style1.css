@@ -79,6 +79,7 @@ terceira
 }
 section.terceira li a{
 	color: #FEEDFE;
+	transition: .3s ease-in;
 }
 section.terceira ul li:hover{
     font-size: 2.3rem;
