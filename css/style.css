@@ -73,6 +73,7 @@ header ul{
     display: flex;
     justify-content: right;
 	margin: 0 5vw 0 0;
+	padding: 0.5vw 0 0 0;
 }
 header ul li{
     margin: 1.7vw 1vw;
@@ -156,7 +157,7 @@ section.acao h2{
 	margin: 5vw 0 0 0;
 	text-align: center;
 	font-size: 4rem;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	color: #414141;
 	text-decoration: underline 5px #414141;
 }
@@ -168,6 +169,8 @@ section.acao p{
 	padding: 1vw 1vw 1vw 1vw;
 	border-radius: 30px;
 	color: #FEEDFE;
+    border-bottom-right-radius: 0;
+	border: #414141 3px solid;
 }
 section.acao img{
 	height: 45vw;
@@ -182,6 +185,8 @@ section.acao h3{
 	margin-bottom: 1.5vw;
 	font-weight: bold;
 	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #414141;
 }
 section.acao li{
 	margin-top: 0.5vw;
@@ -193,7 +198,10 @@ section.acao li{
 	border-radius: 30px;
 	color: #FEEDFE;
 	text-align: center;
+	border: #414141 3px solid;
+
 }
+
 section.acao li a{
 	color: #FEEDFE;
 }
