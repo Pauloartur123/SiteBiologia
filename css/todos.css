@@ -61,6 +61,9 @@ a{
     text-decoration: none;
     color: black;
 }
+hr {
+    margin: 2vw 15vw 0 15vw;
+}
 
 /*==========================
     Formatação do topo
@@ -127,10 +130,10 @@ footer div button{
     border-radius: 30px;
     border: 1px black solid;
     box-shadow: 2px 1px 9px black;
-    color: white;
+    color:#FEEDFE;
     font-size: 1.2rem;
-    transition: .3s ease-in;
-}
+    transition: .3s ease-in;;
+    } 
 button:hover{
     font-size: 1.3rem;
     text-decoration: underline white;
@@ -138,8 +141,9 @@ button:hover{
 footer a{
     color: white;
 }
-hr {
+footer hr {
     margin: 2vw 15vw 0 15vw;
+    color: #FEEDFE;
 }
 footer div.segunda{
     text-align: center;
