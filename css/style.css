@@ -251,9 +251,8 @@ footer div.segunda{
 }
 footer div.segunda p{
     font-size: 1.5rem;
-    margin: 2vw 0 0.5vw 0;
-}
-footer div.segunda div.centro span{
-    font-size: 1.2vw;
-    margin: 0 1vw 2vw 0;
+    margin: 2vw 0 0vw 0;
+	color: #FEEDFE;
+	text-align: center;
+	padding: 0 0 2vw 0;
 }

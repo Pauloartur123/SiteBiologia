@@ -1,0 +1,135 @@
+section div.maior {
+    display: flex;
+	justify-content: center;
+}
+section.principal p {
+    font-size: 2.2rem;
+    margin: 4vw 2vw 2vw 17vw;
+	text-align: center;
+	background-color: #E068B8;
+	padding: 1vw 1vw 1vw 1vw;
+	border-radius: 30px;
+	color: #FEEDFE;
+    border: #414141 3px solid;
+    border-bottom-right-radius: 0;
+}
+section.principal img{
+    height: 35vw;
+    width: 45vw;
+}
+/*===========================
+segunda
+==========================*/
+
+.segunda h1{
+    margin: 1vw 0 0 0;
+	text-align: center;
+	font-size: 5rem;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #414141;
+    text-decoration: underline 5px #414141;
+}
+.segunda h3{
+    margin: 0vw 0 3vw 13vw;
+	text-align: center;
+	font-size: 1.5rem;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #414141;
+    font-weight: bold;
+}
+section.segunda {
+	margin: 0 15vw 10vw 15vw;
+}
+.segunda p{
+    text-align: justify;
+    font-size: 2rem;
+	color: #414141;
+    margin: 0 0 5vw 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.segunda h2{
+	margin: 0 0 2vw 0;
+	text-align: center;
+	font-size: 2.5rem;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #414141;
+    font-weight: bold;
+}
+.maior {
+	margin: 0 0 2vw 0;
+}
+.segunda .texto h3{
+	margin: 0 0 0 1vw;
+	text-align: justify;
+	font-size: 1.5rem;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #414141;
+    font-weight: bold;
+}
+.segunda .texto p{
+	font-size: 1.1rem;
+    margin: 0 0 0 1vw;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.segunda span {
+	padding: 2px 5px 2px 5px;
+    background-color: #E068B8;
+    color: #FEEDFE;
+    border-radius: 30px;
+    border: #414141 2px solid;
+	font-family: 'Times New Roman', Times, serif;
+}
+.segunda .grande1 {
+	margin: 0 3vw 0 0;
+	background-color: white;
+	padding: 2vw 3vw 2vw 3vw;
+	border-radius: 30px;
+	border: #414141 3px solid;
+}
+.segunda .grande2 {
+	background-color: white;
+	padding: 2vw 3vw 2vw 3vw;
+	border-radius: 30px;
+	border: #414141 3px solid;
+}
+.segunda img{
+	width: 35vw;
+	height: 25vw;
+	margin: 0 0 1vw 0;
+}
+/*===========================
+ultima
+==========================*/
+.ultima h2{
+	font-size: 3rem;
+	margin: 2vw 0 0 0;
+	font-weight: bold;
+	color: #414141;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+.ultima ul{
+	margin-top: 4vw;
+	margin-bottom: 5vw;
+}
+.ultima ul li{
+	margin-top: 0.5vw;
+	margin-left: 30vw;
+	margin-right: 30vw;
+	font-size: 2.2rem;
+	background-color: #E068B8;
+	padding: 1vw 0.5vw 1vw 0.5vw;
+	border-radius: 30px;
+	color: #FEEDFE;
+	text-align: center;
+	border: #414141 3px solid;
+}
+section.ultima li a{
+	color: #FEEDFE;
+    transition: .3s ease-in;
+}
+section.ultima ul li:hover{
+    font-size: 2.3rem;
+    text-decoration: underline white;
+}
